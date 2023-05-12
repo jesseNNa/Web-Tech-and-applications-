@@ -4,9 +4,8 @@ body{
 
 #container{
     height: 1990px;
-    width: 627px;
     display: grid;
-    grid-template-rows: 2% 20% 3% 20% 35% 10%;
+    grid-template-rows: 2% 20% 3% 40% 23% 10%;
 }
 
 
@@ -50,7 +49,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 #item-text{
-
     font-size: 7px;
     position: relative;
 }
@@ -67,6 +65,17 @@ body{
     border: 1px solid black
 }
 #row2-r1-c3{    
+}
+#search-bar1{
+    border-radius:15px;
+    width: 700px;
+    height: 25px;
+}
+#search-btn{
+    height: 32px;
+    width: 100px;
+    background-color:black;
+    border-radius:15px;
 }
 
 #row2-r2{
@@ -97,6 +106,7 @@ body{
 #row3{
     display:flex;
     height:52%;
+    justify-content:space-between;
 }
 
 #row4, #row5{
@@ -105,7 +115,7 @@ body{
 
 #row4{
     display: grid;
-    grid-template-rows:29% 71% ;
+    grid-template-rows:15% 84% ;
 }
 #row4-1{
     display: grid;
@@ -113,15 +123,16 @@ body{
 }
 #item-grid{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 14% 14% 14% 14%;
     grid-template-rows: 50% 50%;
     justify-content: center;
+    row-gap: 36px;
+    column-gap: 62px;
 }
 #items{
     display: grid;
-    grid-template-rows: 60% 40%;
-    height:min-content;
-    width:76px;
+    grid-template-rows: 90% 10%;
+    height: 230px;
 }
 #subtle-text{
     font-size: 9px;
@@ -151,6 +162,14 @@ body{
 
 #row5-1,#row5-2, #row5-3{
     border-bottom: 1px solid;
+}
+#book-btn{
+    margin-bottom: 2px;
+    background-color: black;
+    border-radius: 2%;
+    width: max-content;
+    height: 26px;
+}
 }
 
 #row5-1{
@@ -185,13 +204,9 @@ body{
 
 #row5-2{
     display: grid;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 65% 30%;
 }
 
-#row5-2{
-    display: grid;
-    grid-template-rows: 20% 80%;
-}
 #row5-2r1{
     justify-content: center;
     display: flex;
